@@ -1,0 +1,8 @@
+.filterSection {
+  background-color: var(--white-color);
+
+}
+
+.filters {
+  border-right: 1px solid var(--border-color);
+}

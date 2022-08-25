@@ -3,6 +3,7 @@
     --background-color:#e9e4f7;
     --white-color:#ffffff;
     --border-color:#aaa3a366;
+    --text-color:#9a9595;
     
 /* font-size */
     --text-base:1rem;
@@ -34,3 +35,15 @@ background:  #e5e5e5;;
     
 }
 
+.text-color{
+    color: var(--text-color);
+}
+.icon-color{
+    color:var(--primary-color);
+    
+}
+.icon-border{
+    border-radius: 100%;
+    padding:4px;
+    border: 1px solid var(--border-color);
+}

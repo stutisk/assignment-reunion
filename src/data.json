@@ -1,0 +1,171 @@
+[
+    {
+        "id":1,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$200",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":2,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$500",
+        "location":"Green Valley, Highland lake",
+        "beds":"3"
+
+    },
+    {
+        "id":3,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$700",
+        "location":"Green Valley, Highland lake",
+        "beds":"2"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":1,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$1000",
+        "location":"Green Valley, Highland lake",
+        "beds":"2"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    },
+    {
+        "id":4,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"Green Valley, Highland lake",
+        "beds":"4"
+
+    }
+
+]

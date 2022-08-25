@@ -1,8 +1,16 @@
+import { Card } from "../../Components/Card/Card";
+import { Filter } from "../../Components/Filter/Filter";
+import data from "../../data.json";
 const PropertyListing = () => {
   return (
     <div className="pading-l-r">
       <h1>Search properties for rent</h1>
-      <div>Filter componet</div>
+      <Filter />
+      <div className="padding1 flex flex-wrap flex-space-between ">
+        {data?.map((property) => (
+          <Card property={property} key={property.id} />
+        ))}
+      </div>
     </div>
   );
 };

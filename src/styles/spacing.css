@@ -18,8 +18,14 @@
 .flex-space-between {
   justify-content: space-between;
 }
+.flex-wrap{
+  flex-wrap: wrap;
+}
 .gap {
   gap: 2.5rem;
+}
+.gap1{
+  gap:3.5rem
 }
 .pointer {
   cursor: pointer;
@@ -39,6 +45,15 @@
 }
 .pading-l-r{
     padding:0 10rem 0px 10rem
+}
+.paddingl1{
+  padding-left: 1rem;
+}
+.margin-top{
+  margin-top: 1rem;
+}
+.icon-margin{
+ margin-bottom:3px ;
 }
 /* font-size */
 .heading1 {
