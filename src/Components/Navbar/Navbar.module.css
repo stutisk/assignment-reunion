@@ -1,0 +1,11 @@
+.list{
+    list-style: none;
+}
+.listItem:hover{
+    background-color: var(--background-color);
+    color:var(--primary-color);
+   
+}
+.navbar{
+    border-bottom: 1px solid var(--border-color);
+}
