@@ -17,15 +17,16 @@ const Filter = () => {
         </div>
       </div>
 
+     
+   
       <div className={` padding1 ${styles.filters} `}>
         <div className="text-color font-bolder">When</div>
-        <div className="flex flex-space-between " >
+        <div className="flex gap1" >
           {" "}
           <div className=" font-bolder">Select Move-in Date</div>
-        
+         <MdKeyboardArrowDown  onClick={() => setShow((prev) => !prev)} size={22} className="pointer icon-color icon-border"/>
         </div>
       </div>
-   
 
       <div className={` padding1 ${styles.filters} `}>
         <div className="text-color font-bolder">Price</div>
