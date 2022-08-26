@@ -31,7 +31,7 @@ const Filter = () => {
         <div className="text-color font-bolder">Price</div>
         <div className="flex gap1" >
           {" "}
-          <div className=" font-bolder">$500-$200</div>
+          <div className=" font-bolder">all</div>
          <MdKeyboardArrowDown  onClick={() => setShow((prev) => !prev)} size={22} className="pointer icon-color icon-border"/>
         </div>
       </div>
