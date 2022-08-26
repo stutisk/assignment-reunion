@@ -8,7 +8,7 @@ const Card = ({ property }) => {
     <div className={`border-radius1  ${styles.card}  margin-top`}>
       <div>
         {" "}
-        <img className={` ${styles.cardimg}  `} src={image}></img>
+        <img className={` ${styles.cardimg}  `} src={image} alt="house"></img>
       </div>
 
       <div className={` ${styles.cardtext} padding1  `}>

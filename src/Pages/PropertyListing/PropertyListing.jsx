@@ -7,7 +7,7 @@ import styles from "../PropertyListing/PropertyListing.module.css"
 
 import data from "../../data.json";
 const PropertyListing = () => {
-  const [property, _] = useState(data);
+  const [property] = useState(data);
   const { state } = useFilter();
   const FinalProductList = getFiltereddata(state, property);
   return (

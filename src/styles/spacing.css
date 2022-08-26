@@ -18,17 +18,17 @@
 .flex-space-between {
   justify-content: space-between;
 }
-.flex-wrap{
+.flex-wrap {
   flex-wrap: wrap;
 }
 .gap {
   gap: 2.5rem;
 }
-.gap1{
-  gap:3.5rem
+.gap1 {
+  gap: 3.5rem;
 }
-.gap-cards{
-  gap:1rem
+.gap-cards {
+  gap: 1rem;
 }
 .pointer {
   cursor: pointer;
@@ -43,22 +43,22 @@
 .btn-padding {
   padding: 14px 25px;
 }
-.padding0{
-    padding: 12px;
+.padding0 {
+  padding: 12px;
 }
-.pading-l-r{
-    padding:0 10rem 0px 10rem
+.pading-l-r {
+  padding: 0 10rem 0px 10rem;
 }
-.paddingl1{
+.paddingl1 {
   padding-left: 1rem;
 }
-.margin-top{
+.margin-top {
   margin-top: 1rem;
 }
 /* .icon-margin{
  margin-top:5px ;
 } */
-.margin-r{
+.margin-r {
   margin-right: 3px;
 }
 /* font-size */
@@ -81,3 +81,13 @@
   border-radius: 6px;
 }
 
+.text-center {
+  text-align: center;
+}
+.mainText {
+  font-size: 5rem;
+}
+
+.secondryText {
+  font-size: 2rem;
+}
