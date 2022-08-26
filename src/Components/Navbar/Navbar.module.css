@@ -1,11 +1,25 @@
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
-.listItem:hover{
-    background-color: var(--background-color);
-    color:var(--primary-color);
-   
+.listItem:hover {
+  background-color: var(--background-color);
+  color: var(--primary-color);
 }
-.navbar{
-    border-bottom: 1px solid var(--border-color);
+.navbar {
+  border-bottom: 1px solid var(--border-color);
+  position: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 1;
+  background-color: #f1f0f5f7;
+}
+.navlink {
+  text-decoration: none;
+  font-size: var(--text-xl);
+}
+.navlist {
+  text-decoration: none;
 }

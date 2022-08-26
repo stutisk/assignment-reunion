@@ -6,7 +6,7 @@
     cursor: pointer;
     width:30%;
    
-    /* max-width: 100%; */
+    max-width: 100%;
     background-color:var(--secondary-color);
  
   }
