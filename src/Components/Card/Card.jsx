@@ -1,12 +1,9 @@
 import { useWishlist } from "../../Context/WishlistContext";
 import styles from "../Card/Card.module.css";
-import { BiBed, BiBath, BiArea, BiHeart } from "../Icons/Icons";
+import { BiBed, BiBath, BiArea, BiHeart,AiFillHeart } from "../Icons/Icons";
 const Card = ({ property }) => {
   const { image, price, location, beds, title } = property;
-  const {
-    
-    dispatch,
-  } = useWishlist();
+  const { dispatch, state } = useWishlist();
   return (
     <div className={`border-radius1  ${styles.card}  margin-top`}>
       <div>
@@ -19,15 +16,25 @@ const Card = ({ property }) => {
           <div className={` ${styles.cardprice} font-bolder icon-color `}>
             {price} <span className="text-color ">/month</span>
           </div>
-
-          <div
-            className="text-color"
-            onClick={() =>
-              dispatch({ type: "Add To Saved Homes", payload: property })
-            }
-          >
-            <BiHeart className="icon-color icon-border" size={22} />
-          </div>
+          {state.wishlist.some((p) => p.id === property.id) ? (
+            <div
+              className="text-color"
+              onClick={() =>
+                dispatch({ type: "Remove From Saved Homes", payload: property })
+              }
+            >
+              <AiFillHeart className="icon-color  icon-border" size={22} />
+            </div>
+          ) : (
+            <div
+              className="text-color"
+              onClick={() =>
+                dispatch({ type: "Add To Saved Homes", payload: property })
+              }
+            >
+              <BiHeart className="icon-color icon-border" size={22} />
+            </div>
+          )}
         </div>
 
         <div className={` ${styles.cardprice} font-bolder  `}>{title}</div>

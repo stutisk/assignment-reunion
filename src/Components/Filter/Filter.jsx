@@ -1,6 +1,11 @@
 import styles from "../Filter/Filter.module.css";
 import { MdKeyboardArrowDown } from "../Icons/Icons";
+import { useState } from "react";
+import { PriceModal } from "../PriceModal/PriceModal";
+import { HouseTypeModal } from "../HouseTypeModal/HouseTypeModal";
 const Filter = () => {
+  const [show, setShow] = useState(false);
+  const [Priceshow, setPriceShow] = useState(false);
   return (
     <div
       className={`flex   btn-padding ${styles.filterSection} border-radius1 flex-space-between `}
@@ -27,7 +32,7 @@ const Filter = () => {
         <div className="flex gap1" >
           {" "}
           <div className=" font-bolder">$500-$200</div>
-         <MdKeyboardArrowDown size={22} className="pointer icon-color icon-border"/>
+         <MdKeyboardArrowDown  onClick={() => setShow((prev) => !prev)} size={22} className="pointer icon-color icon-border"/>
         </div>
       </div>
 
@@ -35,8 +40,8 @@ const Filter = () => {
         <div className="text-color font-bolder">Property Type</div>
         <div className="flex gap1" >
           {" "}
-          <div className=" font-bolder">Houses</div>
-         <MdKeyboardArrowDown size={22} className="pointer icon-color icon-border"/>
+          <div className=" font-bolder">Home Type</div>
+         <MdKeyboardArrowDown onClick={() => setPriceShow((prev) => !prev)} size={22} className="pointer icon-color icon-border"/>
         </div>
       </div>
 
@@ -47,7 +52,10 @@ const Filter = () => {
         >
           Search
         </button>
+
       </div>
+      {show && <PriceModal />}
+      {Priceshow && <HouseTypeModal />}
     </div>
   );
 };

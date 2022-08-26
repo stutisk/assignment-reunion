@@ -1,0 +1,7 @@
+.priceModal {
+  background-color: var(--white-color);
+  width: 10%;
+  position: absolute;
+  left: 45%;
+  top: 35%;
+}
