@@ -1,7 +1,7 @@
 import styles from "../Card/Card.module.css";
 import { BiBed, BiBath, BiArea, BiHeart } from "../Icons/Icons";
 const Card = ({ property }) => {
-  const { image, price, location, beds } = property;
+  const { image, price, location, beds,title } = property;
   return (
     <div className={`border-radius1  ${styles.card}  margin-top`}>
       <div>
@@ -20,8 +20,8 @@ const Card = ({ property }) => {
           </div>
         </div>
 
-        <div  className={` ${styles.cardprice} font-bolder  `}>Palm Harbor</div>
-        <div className="text-color">Green Valley, Highland lake</div>
+        <div  className={` ${styles.cardprice} font-bolder  `}>{title}</div>
+        <div className="text-color">{location}</div>
       </div>
       <div className={` ${styles.cardtext} padding1 flex flex-space-between`}>
         <div className="text-color">

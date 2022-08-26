@@ -4,167 +4,188 @@
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
         "price":"$200",
         "location":"Green Valley, Highland lake",
-        "beds":"4"
+        "beds":"4",
+        "title":"Palm Harbor"
 
     },
     {
         "id":2,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488081/fikbktifilio8nezqtbr.jpg",
         "price":"$500",
-        "location":"Green Valley, Highland lake",
-        "beds":"3"
-
+        "location":"1858 Tropical Farms",
+        "beds":"3",
+        "title":"Harbor SpringField"
     },
     {
         "id":3,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488386/m5u8uw9eyplbq1rnnhw9.jpg",
         "price":"$700",
-        "location":"Green Valley, Highland lake",
-        "beds":"2"
+        "location":"K Hovnain Florida ",
+        "beds":"2",
+        "title":"Key Bay"
 
     },
     {
         "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488572/vaxh8e7tindp8mlqbrb9.jpg",
         "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
+        "location":"510 Laco Kissimmemme",
+        "beds":"4",
+        "title":"Indian Ridge"
 
     },
     {
-        "id":1,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "id":5,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488833/wdtmqt7nvduolg5jhywc.jpg",
         "price":"$1000",
+        "location":"3412, Highland lake",
+        "beds":"2",
+        "title":"Autumn Greek"
+
+    },
+    {
+        "id":6,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488956/eivntx9zt0zaf6nqzat2.jpg",
+        "price":"$900",
+        "location":"Green Valley,3282",
+        "beds":"4",
+        "title":"Max Group"
+
+    },
+    {
+        "id":7,
+        "image":"https://photos.zillowstatic.com/fp/274d64ba450c934a15e226f8ae730318-p_e.jpg",
+        "price":"$900",
+        "location":"399 Himalayan Valley",
+        "beds":"4",
+        "title":"Century 21"
+
+    },
+    {
+        "id":8,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661489906/ywhutwqk2zwchezwyxqi.jpg",
+        "price":"$900",
+        "location":"Way APT 202",
+        "beds":"4",
+        "title":" Palm 12345"
+
+
+    },
+    {
+        "id":9,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "price":"$900",
+        "location":"789 lake",
+        "beds":"4",
+        "title":"Butterfly Palm"
+
+    },
+    {
+        "id":10,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661490038/w6upbokeupreqzd3eus4.jpg",
+        "price":"$900",
+        "location":"APT 2045",
+        "beds":"4",
+        "title":"Butterfly Disney"
+
+    },
+    {
+        "id":11,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661490365/sj8hjs6spln9hw5rtuyf.jpg",
+        "price":"$900",
+        "location":"Devenport 345",
+        "beds":"4",
+        "title":"Reddish Egreet"
+
+    },
+    {
+        "id":12,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661490658/sannxawjv7kyjmf6abo9.jpg",
+        "price":"$900",
+        "location":"Silver Palm, Highland lake",
+        "beds":"4",
+        "title":"Egreeta 134"
+
+    },
+    {
+        "id":13,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661491325/vch8wmduhi0wtczqzxhh.jpg",
+        "price":"$900",
+        "location":"2300 Silver Palm",
+        "beds":"4",
+        "title":"Sunshine Reality"
+
+    },
+    {
+        "id":14,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661491524/jj7tqr2n7horlrhipy23.jpg",
+        "price":"$900",
+        "location":"Jagat Palm",
+        "beds":"4",
+        "title":"234 Reality"
+
+    },
+    {
+        "id":15,
+        "image":"https://photos.zillowstatic.com/fp/38bcd80dea46c9fdfd12a91794277899-p_e.jpg",
+        "price":"$900",
+        "location":"Kothanur 1234",
+        "beds":"4",
+        "title":"Alka Apla"
+
+    },
+    {
+        "id":16,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661491737/kbuzrirmmaak2bjz4nnv.jpg",
+        "price":"$900",
+        "location":"Akhara Ramshi",
+        "beds":"4",
+        "title":"Himalaya Alka"
+
+    },
+    {
+        "id":17,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661491859/g2vontsaynimdhgvxnzy.jpg",
+        "price":"$900",
+        "location":"Green APT 304",
+        "beds":"4",
+        "title":"Cocunut Palm"
+
+    },
+    {
+        "id":18,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661492124/q3o1oictckxpwzfbvqyj.jpg",
+        "price":"$900",
         "location":"Green Valley, Highland lake",
-        "beds":"2"
+        "beds":"4",
+        "title":"Sweetwater Palm"
+
+    },
+    {
+        "id":19,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661492404/dbwljueit6prwkzmbixa.jpg",
+        "price":"$900",
+        "location":"Lee Vista",
+        "beds":"4",
+        "title":"Empire Network"
+
+    },
+    {
+        "id":20,
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661492494/ik5rsqirtdx40vxa3abd.jpg",
+        "price":"$900",
+        "location":"lag Valley",
+        "beds":"4",
+        "title":"Frank Albert"
 
     },
     {
         "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
+        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661492618/hhe5vtlsrren0vniiwsy.jpg",
         "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
-
-    },
-    {
-        "id":4,
-        "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"$900",
-        "location":"Green Valley, Highland lake",
-        "beds":"4"
+        "location":"Slac Valley",
+        "beds":"4",
+        "title":"Verde Way"
 
     }
 
