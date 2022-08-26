@@ -5,4 +5,5 @@
 
 .filters {
   border-right: 1px solid var(--border-color);
+  line-height: 1.9;
 }

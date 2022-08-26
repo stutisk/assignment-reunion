@@ -55,8 +55,11 @@
 .margin-top{
   margin-top: 1rem;
 }
-.icon-margin{
- margin-bottom:3px ;
+/* .icon-margin{
+ margin-top:5px ;
+} */
+.margin-r{
+  margin-right: 3px;
 }
 /* font-size */
 .heading1 {

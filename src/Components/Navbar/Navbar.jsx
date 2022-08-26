@@ -1,5 +1,5 @@
 import styles from "../Navbar/Navbar.module.css";
-
+import { BiHeart } from "react-icons/bi";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const activeStyle = {
@@ -57,7 +57,8 @@ const Navbar = () => {
           >
             {" "}
             <li className={`${styles.listItem} pointer padding0 `}>
-              Favourites
+              Favourites{" "}
+             
             </li>
           </NavLink>
         </ul>

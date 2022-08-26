@@ -18,6 +18,10 @@
    
 
   }
+  .cardicon{
+    line-height: 1.6;
+    margin-top: 2px;
+  }
   .cardprice{
     font-size: var(--text-xl);
   }
