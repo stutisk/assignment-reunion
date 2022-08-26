@@ -1,5 +1,4 @@
 import styles from "../Navbar/Navbar.module.css";
-import { BiHeart } from "react-icons/bi";
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const activeStyle = {
@@ -13,7 +12,7 @@ const Navbar = () => {
         <ul className={`${styles.list} flex gap`}>
           <NavLink className={`${styles.navlink} `} to="/">
             <li className={` pointer heading1 font-bolder ${styles.navlink}  `}>
-              <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_49/v1661512132/ostowd6uq047b83hr5uh.png" className={`${styles.navimage} `}></img>
+              <img src="https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_49/v1661512132/ostowd6uq047b83hr5uh.png" alt="logo" className={`${styles.navimage} `}></img>
               Estatery
             </li>
           </NavLink>
