@@ -1,10 +1,12 @@
 import { useFilter } from "../../Context/Filter/FilterContext";
 import styles from "../DateModal/DateModal.module.css";
 const DateModal = () => {
+  const{dispatch}=useFilter();
   const DateHandler = (e) => {
-    const{dispatch}=useFilter();
+    
     if (e.target.checked) {
       dispatch({ type: e.target.name, payload: e.target.value });
+      console.log(e.target.value)
     }
   };
   return (
