@@ -1,7 +1,7 @@
 .searchList {
     position: absolute;
     z-index: 2;
-    background-color: var(--white);
+    background-color: var(--white-color);
 
     height: fit-content;
     max-height: 50vh;

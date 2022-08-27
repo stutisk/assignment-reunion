@@ -52,6 +52,7 @@ const PropertyListing = () => {
 
       <Filter />
       <div className=" flex flex-wrap gap-cards ">
+     
         {FinalProductList?.map((property) => (
           <Card property={property} key={property.id} />
         ))}
