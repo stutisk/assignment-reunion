@@ -85,7 +85,8 @@
         "price":"900000",
         "location":"789 lake",
         "beds":"4",
-        "title":"Butterfly Palm"
+        "title":"Butterfly Palm",
+        "house":"Lots/Land"
 
     },
     {
@@ -184,7 +185,8 @@
         "price":"9132100",
         "location":"Lee Vista",
         "beds":"4",
-        "title":"Empire Network"
+        "title":"Empire Network",
+        "house":"Lots/Land"
 
     },
     {
