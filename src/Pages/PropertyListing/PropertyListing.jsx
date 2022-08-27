@@ -17,14 +17,14 @@ const PropertyListing = () => {
   useEffect(() => {
     setSearchTerm("");
   }, []);
- 
+
   const filteredProperty = property.filter((property) => {
     if (searchTerm) {
       return property.title.toLowerCase().includes(searchTerm.toLowerCase());
     }
+    return property.title.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
- 
   const { state } = useFilter();
   const FinalProductList = getFiltereddata(state, property);
   return (
@@ -41,18 +41,17 @@ const PropertyListing = () => {
             onChange={handleSearchTerm}
           />
 
-      {searchTerm && (
-        <SearchList
-        filteredProperty ={filteredProperty }
-          setSearchTerm={setSearchTerm}
-        />
-      )}
+          {searchTerm && (
+            <SearchList
+              filteredProperty={filteredProperty}
+              setSearchTerm={setSearchTerm}
+            />
+          )}
         </div>
       </div>
 
       <Filter />
       <div className=" flex flex-wrap gap-cards ">
-     
         {FinalProductList?.map((property) => (
           <Card property={property} key={property.id} />
         ))}
