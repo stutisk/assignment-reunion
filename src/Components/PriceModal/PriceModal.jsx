@@ -1,7 +1,7 @@
 import { useFilter } from "../../Context/Filter/FilterContext";
 import styles from "../PriceModal/PriceModal.module.css";
 const PriceModal = () => {
-  const { dispatch } = useFilter();
+  const { dispatch ,InitialState} = useFilter();
 
   const categoryRatingsHandler = (e) => {
     if (e.target.checked) {
@@ -14,6 +14,7 @@ const PriceModal = () => {
   return (
     <div className={`${styles.priceModal} border-radius1 btn-padding  `}>
       <form className="pricelist">
+     
         <div className=" margin-top">
           {" "}
           <label for="price">
@@ -21,10 +22,10 @@ const PriceModal = () => {
               onChange={(e) => categoryRatingsHandler(e)}
               type="radio"
               name="PRICE"
-              value={6000}
+              value={10000}
               className="pointer"
             />
-            6000+
+            $10,000+
           </label>
         </div>
         <div className=" margin-top">
@@ -34,12 +35,52 @@ const PriceModal = () => {
               onChange={(e) => categoryRatingsHandler(e)}
               type="radio"
               name="PRICE"
-              value={1000}
+              value={20000}
               className="pointer"
             />
-            1000+
+            $20,000+
           </label>
         </div>
+        <div className=" margin-top">
+          {" "}
+          <label for="price">
+            <input
+              onChange={(e) => categoryRatingsHandler(e)}
+              type="radio"
+              name="PRICE"
+              value={30000}
+              className="pointer"
+            />
+            $30,000+
+          </label>
+        </div>
+        <div className=" margin-top">
+          {" "}
+          <label for="price">
+            <input
+              onChange={(e) => categoryRatingsHandler(e)}
+              type="radio"
+              name="PRICE"
+              value={40000}
+              className="pointer"
+            />
+            $40,000+
+          </label>
+        </div>
+        <div className=" margin-top">
+          {" "}
+          <label for="price">
+            <input
+              onChange={(e) => categoryRatingsHandler(e)}
+              type="radio"
+              name="PRICE"
+              value={50000}
+              className="pointer"
+            />
+            $50,000+
+          </label>
+        </div>
+       
       </form>
     </div>
   );

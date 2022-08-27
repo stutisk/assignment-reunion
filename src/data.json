@@ -2,7 +2,7 @@
     {
         "id":1,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661429376/alyfc1nneox6b7hkmy6s.jpg",
-        "price":"6000",
+        "price":"20000",
         "location":"Green Valley, Highland lake",
         "beds":"4",
         "title":"Palm Harbor",
@@ -12,15 +12,16 @@
     {
         "id":2,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488081/fikbktifilio8nezqtbr.jpg",
-        "price":"5000",
+        "price":"20000",
         "location":"1858 Tropical Farms",
         "beds":"3",
-        "title":"Harbor SpringField"
+        "title":"Harbor SpringField",
+        "house":"Lots/Land"
     },
     {
         "id":3,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488386/m5u8uw9eyplbq1rnnhw9.jpg",
-        "price":"7000",
+        "price":"30000",
         "location":"K Hovnain Florida ",
         "beds":"2",
         "title":"Key Bay",
@@ -30,10 +31,11 @@
     {
         "id":4,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488572/vaxh8e7tindp8mlqbrb9.jpg",
-        "price":"9000",
+        "price":"30000",
         "location":"510 Laco Kissimmemme",
         "beds":"4",
-        "title":"Indian Ridge"
+        "title":"Indian Ridge",
+        "house":"Lots/Land"
 
     },
     {
@@ -49,28 +51,31 @@
     {
         "id":6,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661488956/eivntx9zt0zaf6nqzat2.jpg",
-        "price":"90000",
+        "price":"10000",
         "location":"Green Valley,3282",
         "beds":"4",
-        "title":"Max Group"
+        "title":"Max Group",
+        "house":"Appartment"
 
     },
     {
         "id":7,
         "image":"https://photos.zillowstatic.com/fp/274d64ba450c934a15e226f8ae730318-p_e.jpg",
-        "price":"90000",
+        "price":"40000",
         "location":"399 Himalayan Valley",
         "beds":"4",
-        "title":"Century 21"
+        "title":"Century 21",
+        "house":"Appartment"
 
     },
     {
         "id":8,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661489906/ywhutwqk2zwchezwyxqi.jpg",
-        "price":"30000",
+        "price":"40000",
         "location":"Way APT 202",
         "beds":"4",
-        "title":" Palm 12345"
+        "title":" Palm 12345",
+        "house":"Appartment"
 
 
     },
@@ -86,37 +91,41 @@
     {
         "id":10,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661490038/w6upbokeupreqzd3eus4.jpg",
-        "price":"9000000",
+        "price":"50000",
         "location":"APT 2045",
         "beds":"4",
-        "title":"Butterfly Disney"
+        "title":"Butterfly Disney",
+        "house":"Appartment"
 
     },
     {
         "id":11,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661490365/sj8hjs6spln9hw5rtuyf.jpg",
-        "price":"90000",
+        "price":"50000",
         "location":"Devenport 345",
         "beds":"4",
-        "title":"Reddish Egreet"
+        "title":"Reddish Egreet",
+        "house":"Multi-family"
 
     },
     {
         "id":12,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661490658/sannxawjv7kyjmf6abo9.jpg",
-        "price":"123900",
+        "price":"60000",
         "location":"Silver Palm, Highland lake",
         "beds":"4",
-        "title":"Egreeta 134"
+        "title":"Egreeta 134",
+        "house":"Appartment"
 
     },
     {
         "id":13,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661491325/vch8wmduhi0wtczqzxhh.jpg",
-        "price":"121900",
+        "price":"60000",
         "location":"2300 Silver Palm",
         "beds":"4",
-        "title":"Sunshine Reality"
+        "title":"Sunshine Reality",
+        "house":"Appartment"
 
     },
     {
@@ -125,7 +134,8 @@
         "price":"214900",
         "location":"Jagat Palm",
         "beds":"4",
-        "title":"234 Reality"
+        "title":"234 Reality",
+        "house":"Appartment"
 
     },
     {
@@ -134,7 +144,8 @@
         "price":"1233300",
         "location":"Kothanur 1234",
         "beds":"4",
-        "title":"Alka Apla"
+        "title":"Alka Apla",
+        "house":"Multi-family"
 
     },
     {
@@ -143,7 +154,8 @@
         "price":"9333300",
         "location":"Akhara Ramshi",
         "beds":"4",
-        "title":"Himalaya Alka"
+        "title":"Himalaya Alka",
+        "house":"Multi-family"
 
     },
     {
@@ -152,7 +164,8 @@
         "price":"923100",
         "location":"Green APT 304",
         "beds":"4",
-        "title":"Cocunut Palm"
+        "title":"Cocunut Palm",
+        "house":"Multi-family"
 
     },
     {
@@ -161,7 +174,8 @@
         "price":"92131300",
         "location":"Green Valley, Highland lake",
         "beds":"4",
-        "title":"Sweetwater Palm"
+        "title":"Sweetwater Palm",
+        "house":"Lots/Land"
 
     },
     {
@@ -176,16 +190,17 @@
     {
         "id":20,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661492494/ik5rsqirtdx40vxa3abd.jpg",
-        "price":"5",
+        "price":"80000",
         "location":"lag Valley",
         "beds":"4",
-        "title":"Frank Albert"
+        "title":"Frank Albert",
+        "house":"Lots/Land"
 
     },
     {
-        "id":4,
+        "id":21,
         "image":"https://res.cloudinary.com/dvbw8xujd/image/upload/c_scale,h_180/v1661492618/hhe5vtlsrren0vniiwsy.jpg",
-        "price":"1",
+        "price":"9990000",
         "location":"Slac Valley",
         "beds":"4",
         "title":"Verde Way",

@@ -14,7 +14,7 @@ const Card = ({ property }) => {
       <div className={` ${styles.cardtext} padding1  `}>
         <div className={` flex flex-space-between  `}>
           <div className={` ${styles.cardprice} font-bolder icon-color `}>
-            {price} <span className="text-color ">/month</span>
+          ${price} <span className="text-color ">/month</span>
           </div>
           {state.wishlist.some((p) => p.id === property.id) ? (
             <div
