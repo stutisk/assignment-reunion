@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import styles from "../SearchList/SearchList.module.css";
-export const SearchList = ({ filteredProducts, setSearchTerm }) => {
+export const SearchList = ({ filteredProperty , setSearchTerm }) => {
   const handleClick = () => {
     setSearchTerm("");
   };
 
   return (
     <div className={` ${styles.searchList}   `} onClick={handleClick}>
-      {filteredProducts.length == 0 ? (
+      {filteredProperty .length == 0 ? (
         <small>No products available</small>
       ) : (
-        filteredProducts?.map(({ image, title }) => {
+        filteredProperty ?.map(({ image, title }) => {
           return (
             <div>
               <div  className={` ${styles.searchBox} flex `}>

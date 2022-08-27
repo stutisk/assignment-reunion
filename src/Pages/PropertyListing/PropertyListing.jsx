@@ -18,7 +18,7 @@ const PropertyListing = () => {
     setSearchTerm("");
   }, []);
  
-  const filteredProducts = property.filter((property) => {
+  const filteredProperty = property.filter((property) => {
     if (searchTerm) {
       return property.title.toLowerCase().includes(searchTerm.toLowerCase());
     }
@@ -43,7 +43,7 @@ const PropertyListing = () => {
 
       {searchTerm && (
         <SearchList
-          filteredProducts={filteredProducts}
+        filteredProperty ={filteredProperty }
           setSearchTerm={setSearchTerm}
         />
       )}
