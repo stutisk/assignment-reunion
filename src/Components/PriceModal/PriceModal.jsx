@@ -1,7 +1,7 @@
 import { useFilter } from "../../Context/Filter/FilterContext";
 import styles from "../PriceModal/PriceModal.module.css";
 const PriceModal = () => {
-  const { dispatch ,InitialState} = useFilter();
+  const { dispatch } = useFilter();
 
   const categoryRatingsHandler = (e) => {
     if (e.target.checked) {
