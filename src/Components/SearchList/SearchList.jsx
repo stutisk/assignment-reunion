@@ -8,7 +8,7 @@ export const SearchList = ({ filteredProperty , setSearchTerm }) => {
   return (
     <div className={` ${styles.searchList}   `} onClick={handleClick}>
       {filteredProperty .length == 0 ? (
-        <small>No products available</small>
+        <small>No properties available</small>
       ) : (
         filteredProperty ?.map(({ image, title }) => {
           return (
