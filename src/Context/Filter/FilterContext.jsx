@@ -8,7 +8,8 @@ const useFilter = () => useContext(FilterContext);
 const InitialState = {
   property: data,
   price: "all",
-  house:[]
+  house:[],
+  date:"all"
 };
 const FilterProvider = ({ children }) => {
   const [state, dispatch] = useReducer(FilterReducer, InitialState);

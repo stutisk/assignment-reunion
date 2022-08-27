@@ -4,9 +4,11 @@ import { useState } from "react";
 import { PriceModal } from "../PriceModal/PriceModal";
 import { HouseTypeModal } from "../HouseTypeModal/HouseTypeModal";
 import { useFilter } from "../../Context/Filter/FilterContext";
+import { DateModal } from "../DateModal/DateModal";
 const Filter = () => {
   const [show, setShow] = useState(false);
   const [Priceshow, setPriceShow] = useState(false);
+  const [Dateshow, setDateShow] = useState(false);
   const { dispatch, InitialState } = useFilter();
   return (
     <div
@@ -23,9 +25,9 @@ const Filter = () => {
         <div className="text-color font-bolder">When</div>
         <div className="flex gap1">
           {" "}
-          <div className=" font-bolder">Select Move-in Date</div>
+          <div className=" font-bolder">Select  Date</div>
           <MdKeyboardArrowDown
-            onClick={() => setShow((prev) => !prev)}
+            onClick={() => setDateShow((prev) => !prev)}
             size={22}
             className="pointer icon-color icon-border"
           />
@@ -70,6 +72,7 @@ const Filter = () => {
       </div>
       {show && <PriceModal />}
       {Priceshow && <HouseTypeModal />}
+      {Dateshow && <DateModal />}
     </div>
   );
 };

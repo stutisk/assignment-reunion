@@ -1,0 +1,7 @@
+.DateModal{
+    background-color: var(--white-color);
+    width: 10%;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+}

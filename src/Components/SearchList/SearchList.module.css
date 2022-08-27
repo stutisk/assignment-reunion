@@ -1,0 +1,26 @@
+.searchList {
+    position: absolute;
+    z-index: 2;
+    background-color: var(--white);
+
+    height: fit-content;
+    max-height: 50vh;
+    overflow-y: scroll;
+    box-shadow: 1px 2px 3px rgba(43, 43, 43, 0.603);
+  }
+  
+  .searchimg {
+    width: 30%;
+    flex-shrink: 0;
+  }
+  
+  .search-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+ 
+.searchBox{
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--white-color);
+}

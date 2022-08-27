@@ -3,12 +3,10 @@ import styles from "../PriceModal/PriceModal.module.css";
 const PriceModal = () => {
   const { dispatch } = useFilter();
 
-  const categoryRatingsHandler = (e) => {
+  const PriceHandler = (e) => {
     if (e.target.checked) {
       dispatch({ type: e.target.name, payload: e.target.value });
-    } else {
-      dispatch({ type: "REMOVE-CATEGORY", payload: e.target.value });
-    }
+    } 
   };
 
   return (
@@ -19,7 +17,7 @@ const PriceModal = () => {
           {" "}
           <label for="price">
             <input
-              onChange={(e) => categoryRatingsHandler(e)}
+              onChange={(e) => PriceHandler(e)}
               type="radio"
               name="PRICE"
               value={10000}
@@ -32,7 +30,7 @@ const PriceModal = () => {
           {" "}
           <label for="price">
             <input
-              onChange={(e) => categoryRatingsHandler(e)}
+              onChange={(e) => PriceHandler(e)}
               type="radio"
               name="PRICE"
               value={20000}
@@ -45,7 +43,7 @@ const PriceModal = () => {
           {" "}
           <label for="price">
             <input
-              onChange={(e) => categoryRatingsHandler(e)}
+               onChange={(e) => PriceHandler(e)}
               type="radio"
               name="PRICE"
               value={30000}
@@ -58,7 +56,7 @@ const PriceModal = () => {
           {" "}
           <label for="price">
             <input
-              onChange={(e) => categoryRatingsHandler(e)}
+              onChange={(e) => PriceHandler(e)}
               type="radio"
               name="PRICE"
               value={40000}
@@ -71,7 +69,7 @@ const PriceModal = () => {
           {" "}
           <label for="price">
             <input
-              onChange={(e) => categoryRatingsHandler(e)}
+             onChange={(e) => PriceHandler(e)}
               type="radio"
               name="PRICE"
               value={50000}

@@ -1,11 +1,13 @@
 export const getFiltereddata = (state, property) => {
-  const { price, house } = state;
+  const { price, house,date } = state;
 
   if (price === "all") return property;
   let filteredData = [...property.filter((item) => item.price >= price)];
 
 
-  if (price === "all") return filteredData;
+  
+
+  
 
   filteredData = house.length
   ? [
@@ -15,6 +17,8 @@ export const getFiltereddata = (state, property) => {
     ]
   : [...filteredData];
  
+  
+
   return [...filteredData];
 
 };
