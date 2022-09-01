@@ -8,7 +8,7 @@ const useWishlist = () => useContext(Wishlistcontext);
 
 const WishlistProvider = ({children}) => {
  const [state,dispatch] = useReducer( WishlistReducer,{wishlist:[]});
-console.log(state)
+
   return (
     <Wishlistcontext.Provider value={{state,dispatch}}>
       {children}
